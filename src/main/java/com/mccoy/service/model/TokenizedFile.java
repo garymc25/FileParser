@@ -59,6 +59,13 @@ public class TokenizedFile {
         return tokenizedResultList.get(row).size();
     }
 
+    /**
+     * Returns the string representation
+     * NOTE: From instructions, assuming it's okay to include oxford comma and disregard the word
+     *       and between the last 2 elements  :)
+     *
+     * @return String representation of this
+     */
     @Override
     public String toString() {
         StringBuilder outputBuilder = new StringBuilder();
